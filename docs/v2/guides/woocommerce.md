@@ -137,7 +137,7 @@ Finally, we’ll need to create a teaser file for products in loops. Considering
 ## Tease Product
 
 ```twig
-<article {{ fn('post_class', ['$classes', 'entry'] ) }}>
+<article {{ fn('post_class', ['entry'] ) }}>
 
     {{ fn('timber_set_product', post) }}
 
